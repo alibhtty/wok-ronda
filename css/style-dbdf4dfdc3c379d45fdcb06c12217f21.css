@@ -1,13 +1,16 @@
 @charset "utf-8";
 
 :root {
-  --magenta-logo:#E6037E; /* #E6037E #FF0066 */
+  --footer: #222222;
+  --footer-text: #f1f1f1;
+
+  --magenta-logo:#ea2525; /* #E6037E #FF0066 */
   /* --magenta: #FF00FF; */
   --amarillo: #FFFF00; /* FFBB00 */
   --azul: #0000FF;
-  --bg-light: #FFF0F8;
+  --bg-light: #F1f1f1; /* FFF0F8 */
   --blanco:#FFFFFF;
-  --light-amarillo: ##FFFFE0;
+  --light-amarillo: #e3f8ff; /* e9faff  FFFFE0 */
 }
 
 html,
@@ -382,7 +385,7 @@ make-btn-main bottom-button read-btn mobile-make-a-reservation {
   margin: 10px 0 !important;
 }
 header.active {
-  background: var(--magenta-logo);
+  background: var(--magenta-logo);  /* --magenta-logo */
   -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.25);
   opacity: 1;
@@ -2162,7 +2165,7 @@ footer .footer-left .location address {
   width: 100%;
   display: block;
   font-size: 14px;
-  color: #1a1a1a;
+  color: var(--1a1a1a); /* 1a1a1a */
   line-height: 20px;
   margin-bottom: 50px;
   font-family: "Open Sans", sans-serif;

@@ -404,7 +404,7 @@ header.active .right-side {
   color: #fff;
   font-size: 12px;
   text-transform: uppercase;
-  font-family: "colby"; /* OakesGroteskBold */
+  font-family: "OakesGroteskBold"; /* colby  OakesGroteskBold */
   -webkit-transition: 0.3s;
   transition: 0.3s;
   border-radius: 25px;
@@ -617,7 +617,7 @@ p.small-print {
   cursor: pointer;
 }
 h1 {
-  font-family: "colby"; /* OakesGroteskBold */
+  font-family: "colby"; /* colby OakesGroteskBold */
 }
 .menuOne {
   width: 30px;
@@ -748,7 +748,7 @@ h1 {
   margin: 0;
   display: block;
   color: #000;
-  font-family: "colby"; /* Colby / OakesGroteskBold */
+  font-family: "OakesGroteskBold"; /* Colby / OakesGroteskBold */
   font-size: 24px;
   line-height: 36px;
   text-transform: uppercase;

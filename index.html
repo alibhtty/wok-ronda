@@ -62,7 +62,8 @@ img.emoji {
 <style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style>
 
 <!-- FAVICONS -->
-<link rel="apple-touch-icon" sizes="180x180" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
 <!-- <link rel="icon" type="image/png" sizes="32x32" href="favicon/safari-pinned-tab.svg">
 <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-32x32.png">
 <link rel="manifest" href="favicon/site.webmanifest">
@@ -113,7 +114,7 @@ img.emoji {
 <section style="width: 100%; height: 70px;background-color: var(--rojo-wok)">
     <div style="text-align: center">
         <a class="logo-icon" href="https://changarrito.es/">
-            <img style="width: 320px; align-items: center;margin-top: 17px;z-index: 1000;" src="assets/icons/elchangarrito.png" alt="">
+            <img style="width: 250px; height: 100%; align-items: center;margin-top: 10px;z-index: 1000;" src="assets/icons/wok-logo.png" alt="">
             <!-- <h1 class="logo-top" style="font-family: days; font-size: 40px; padding-top: 10px;padding-left: -13px; color: #fff; white-space: nowrap; letter-spacing: -1.1px; margin-bottom: 0px" translate="no">el changarrito</h1> -->
         </a>
     </div>
@@ -165,7 +166,7 @@ img.emoji {
                 </div>
                 <div class="col-md-4 col-sm-6" style="margin-right: 0px;">
                     <a class="logo" href="https://changarrito.es/">
-                        <img style="width: 320px; align-items: center;margin-top: -3px;z-index: 1000;" src="assets/icons/elchangarrito.png" alt="">
+                        <img style="width: 250px; align-items: center;margin-top: -10px;z-index: 1000;" src="assets/icons/wok-logo.png" alt="">
                         <!-- <h1 class="top-logo" style="font-family: days; color: #fff; font-size: 40px; margin-top: -.6rem; letter-spacing: -1.1px; white-space: nowrap;" translate="no">el changarrito</h1> -->
                     </a>
                 </div>
@@ -637,7 +638,7 @@ img.emoji {
         }  
         .card__icono {
           position: absolute;
-          background: #ffd900;
+          background: var(--rojo-wok); /* ffd900 */
           display: flex;
           align-items: center;
           justify-content: center;
@@ -675,19 +676,19 @@ img.emoji {
          
          @keyframes BGcolorChanging-4colors {
          	0% {
-         	  background: #ffd900;
+         	  background: var(--rojo-wok);
          	}
              15% {
-         	  background: #ffd900;
+         	  background: var(--rojo-wok);
          	}
              25% {
-         	  background: #ffd900;
+         	  background: var(--rojo-wok);
          	}
             70% {
-                 background: rgb(197, 161, 0);
+                 background: rgb(166, 36, 36);
              }
          	100% {
-         	  background: #ebd900;
+         	  background: var(--rojo-wok);
          	}
            }
         .card__mensaje {
@@ -697,7 +698,7 @@ img.emoji {
             overflow: hidden;
         }
         .card__mensaje h2 {
-          font-family: colby; /* Poppins */
+          font-family: Poppins; /* colby  Poppins */
           font-size: 17px;
           color: #22215B;
           font-weight: 500;

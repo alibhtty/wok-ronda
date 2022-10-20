@@ -91,7 +91,8 @@ video {
   background: transparent;
   text-decoration: none;
   list-style: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: var(--magenta-logo);
+  /* -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -99,7 +100,7 @@ body {
   font-size: 13px;
   font-weight: 400;
   line-height: 22px;
-  background-color: #000;  /* #e1e1e1 */
+  background-color: var(--magenta-logo);  /* #e1e1e1 */
   font-family: "OakesGroteskRegular" !important;
   -webkit-text-size-adjust: none;
 }

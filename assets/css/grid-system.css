@@ -78,6 +78,7 @@
   /* None */
   body .container-wrap .wpb_row[data-column-margin="none"]:not(.full-width-section):not(.full-width-content) {
     margin-bottom: 0;
+    border-radius: 20px;
   }
   
   body .container-wrap .vc_row-fluid[data-column-margin="none"] > .span_12,
@@ -785,7 +786,7 @@
     .col.padding-4-percent > .vc_column-inner { padding: calc(1245px * 0.04); }
     .col.padding-5-percent > .vc_column-inner { padding: calc(1245px * 0.05); }
     .col.padding-6-percent > .vc_column-inner { padding: calc(1245px * 0.06); }
-    .col.padding-7-percent > .vc_column-inner { padding: calc(1245px * 0.07); }
+    .col.padding-7-percent > .vc_column-inner { padding: calc(1245px * 0.05); }
     .col.padding-8-percent > .vc_column-inner { padding: calc(1245px * 0.08); }
     .col.padding-9-percent > .vc_column-inner { padding: calc(1245px * 0.09); }
     .col.padding-10-percent > .vc_column-inner { padding: calc(1245px * 0.1); }

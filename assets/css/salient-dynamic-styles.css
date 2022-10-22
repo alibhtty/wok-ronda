@@ -3508,7 +3508,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		#slide-out-widget-area.fullscreen-alt .nectar-image-link-widget .image-link-content span, .nectar-header-text-content,
 		#slide-out-widget-area .nectar-ext-menu-item .menu-item-desc,
 		.woocommerce-checkout-review-order-table .product-info .product-quantity,
-		#ajax-content-wrap .nectar-shop-header-bottom .widget_layered_nav_filters ul li a {font-family: Lato; font-size:16px; line-height:19px; font-weight:400; }.bold, strong, b { font-family: Lato; font-weight: 600; } .single #single-below-header span { font-family: Lato;  }.nectar-fancy-ul ul li .icon-default-style[class^="icon-"] {line-height:19px;}#ajax-content-wrap .nectar-shop-header-bottom .widget_layered_nav_filters ul li a,
+		#ajax-content-wrap .nectar-shop-header-bottom .widget_layered_nav_filters ul li a {font-family: Ubuntu; font-size:16px; line-height:19px; font-weight:400; }.bold, strong, b { font-family: Lato; font-weight: 600; } .single #single-below-header span { font-family: Lato;  }.nectar-fancy-ul ul li .icon-default-style[class^="icon-"] {line-height:19px;}#ajax-content-wrap .nectar-shop-header-bottom .widget_layered_nav_filters ul li a,
 					 .nectar-shop-header-bottom .woocommerce-ordering .select2-container--default .select2-selection--single .select2-selection__rendered,
 					 body[data-fancy-form-rcs="1"] .nectar-shop-header-bottom .woocommerce-ordering select {
 						 font-weight: 400!important;
@@ -3546,7 +3546,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		#header-secondary-outer .nectar-center-text,
 		#slide-out-widget-area .secondary-header-text,
     #header-outer #mobile-menu ul li a,
-		#header-outer #mobile-menu .secondary-header-text {font-family: Montserrat; text-transform: none; font-size:15px; line-height:15px; font-weight:700;  }#top nav > ul > li[class*="button_solid_color"] > a:before, #header-outer.transparent #top nav > ul > li[class*="button_solid_color"] > a:before, #header-outer #top .slide-out-widget-area-toggle[data-custom-color="true"] a:before {
+		#header-outer #mobile-menu .secondary-header-text {font-family: Ubuntu; text-transform: none; font-size:15px; line-height:15px; font-weight:700;  }#top nav > ul > li[class*="button_solid_color"] > a:before, #header-outer.transparent #top nav > ul > li[class*="button_solid_color"] > a:before, #header-outer #top .slide-out-widget-area-toggle[data-custom-color="true"] a:before {
 		    		height: 26px;
 		    	}#top nav > ul > li[class*="button_bordered"] > a:before, #header-outer.transparent #top nav > ul > li[class*="button_bordered"] > a:before {
 		    		height: 36px;
@@ -3569,7 +3569,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 			body .row .col.section-title h1,
 			.full-width-content .nectar-recent-posts-slider .recent-post-container .inner-wrap h2,
 			body #error-404 h1,
-			[data-inherit-heading-family="h1"] {font-family: Montserrat; text-transform: none; font-size:90px; line-height:95px; font-weight:700;  }
+			[data-inherit-heading-family="h1"] {font-family: Ubuntu; text-transform: none; font-size:90px; line-height:95px; font-weight:700;  }
 			@media only screen and (max-width: 1300px) and (min-width: 1000px) {
 				body .row .col.section-title h1, body h1, .full-width-content .recent-post-container .inner-wrap h2 {
 					font-size: 67.5px;
@@ -3633,7 +3633,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 		#mobile-menu .nectar-ext-menu-item .inherit-h2,
 		#ajax-content-wrap .nectar-inherit-h2,
 		[data-inherit-heading-family="h2"],
-		.nectar-quick-view-box div.product h1.product_title.nectar-inherit-h2 { font-family: Montserrat; text-transform: uppercase; letter-spacing: 0px; font-size:32px; line-height:34px; font-weight:700;  }
+		.nectar-quick-view-box div.product h1.product_title.nectar-inherit-h2 { font-family: Ubuntu; text-transform: uppercase; letter-spacing: 0px; font-size:32px; line-height:34px; font-weight:700;  }
 		.single-product div.product h1.product_title, .nectar-shop-header .page-title {
 			font-size: 32px;
 			line-height: 34px;
@@ -3926,7 +3926,7 @@ body .dark .testimonial_slider[data-style="multiple_visible"][data-color*="accen
 
 	body i, body em, .masonry.meta_overlaid article.post .post-header .meta-author > span, .post-area.masonry.meta_overlaid article.post .post-meta .date,
 		.post-area.masonry.meta_overlaid article.post.quote .quote-inner .author, .post-area.masonry.meta_overlaid  article.post.link .post-content .destination,
-		body .testimonial_slider[data-style="minimal"] blockquote span.title { font-family: Crimson Text; font-weight:400; font-style: italic;  }
+		body .testimonial_slider[data-style="minimal"] blockquote span.title { font-family: Ubuntu; font-weight:400; font-size: 18px;  }
 		
 
   

@@ -535,7 +535,8 @@ p{
 }
 
 .row .col p:last-child{
-  padding-bottom:0
+  padding-bottom: 10px;
+  font-size: 20px;
 }
 
 .container .row:last-child,
